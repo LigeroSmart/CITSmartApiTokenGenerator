@@ -1,0 +1,13 @@
+# OTRS config file (automatically generated)
+# VERSION:2.0
+package Kernel::Config::Files::ZZZZCitsmartToken;
+use strict;
+use warnings;
+no warnings 'redefine'; ## no critic
+use utf8;
+sub Load {
+    my ($File, $Self) = @_;
+    $Self->{CompanyIntegrations}->{CitsmartToken} = '_TOKEN_';
+    return;
+}
+1;

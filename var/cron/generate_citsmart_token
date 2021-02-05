@@ -1,0 +1,2 @@
+# Generate Citsmart Token
+*/20 * * * *  $HOME/bin/CitTokenToLigero.sh  >> /dev/null
